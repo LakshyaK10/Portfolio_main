@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 
 const projects = [
   {
-  title: "Face Recognition Gallery",
+  title: "GetYou",
   subtitle: "Self Project",
   description:
     "A full-stack web application that allows users to upload a selfie and instantly find all matching photos from a gallery using advanced AI-powered face recognition.",
