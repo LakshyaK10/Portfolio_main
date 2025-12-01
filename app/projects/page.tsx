@@ -8,6 +8,37 @@ import Navbar from "../components/Navbar";
 
 const projects = [
   {
+  title: "Face Recognition Gallery",
+  subtitle: "Self Project",
+  description:
+    "A full-stack web application that allows users to upload a selfie and instantly find all matching photos from a gallery using advanced AI-powered face recognition.",
+  tech: [
+    "Python",
+    "Flask",
+    "React",
+    "Face Recognition",
+    "Dlib",
+    "OpenCV",
+    "NumPy",
+    "Pillow",
+    "React Dropzone",
+    "Axios",
+    "HTML5",
+    "CSS3",
+    "JavaScript"
+  ],
+  features: [
+    "Implemented AI-powered face detection and recognition with 85–95% match accuracy using 128-D facial encodings",
+    "Developed a user interface where users can upload selfies, view similarity-scored results, preview photos in a lightbox, and download images individually or in bulk",
+    "Built an admin panel supporting secure login, bulk photo uploads, automatic encoding, face counting, and complete gallery management",
+    "Optimized backend with Flask, OpenCV, dlib and face_recognition for fast processing, including support for multiple faces in group photos"
+  ],
+  gradient: "from-blue-500 to-cyan-500",
+  github: "https://github.com/LakshyaK10/GetYou",
+  live: "https://your-live-demo-link.com"
+},
+
+  {
     title: "PopcornPulse",
     subtitle: "Self Project",
     description:
