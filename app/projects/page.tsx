@@ -37,23 +37,6 @@ const projects = [
   github: "https://github.com/LakshyaK10/GetYou",
   live: "https://your-live-demo-link.com"
 },
-
-  {
-    title: "PopcornPulse",
-    subtitle: "Self Project",
-    description:
-      "An AI-powered movie recommendation platform that personalizes suggestions based on mood, ratings, and user preferences.",
-    tech: ["Python","Flask","HTML5","CSS3","JavaScript","pandas","NumPy","scikit-learn","Google Gemini API","OMDb API"],
-    features: [
-      "Implemented content-based filtering using TF-IDF and cosine similarity to recommend movies",
-      "Integrated Google Gemini API to deliver real-time mood-based movie suggestions",
-      "Fetched IMDb ratings dynamically using OMDb API for better recommendation accuracy",
-      "Designed a responsive and interactive UI for seamless movie browsing",
-    ],
-    gradient: "from-cyan-500 to-blue-500",
-    github: "https://github.com/LakshyaK10/PopcornPulse",
- 
-  },
     {
     title: "GYMLife Master",
     subtitle: "Self Project",
@@ -69,6 +52,22 @@ const projects = [
     gradient: "from-indigo-500 to-violet-500",
     github: "https://github.com/LakshyaK10?tab=repositories",
     live: "https://gymlifemaster.com",
+  },
+  {
+    title: "PopcornPulse",
+    subtitle: "Self Project",
+    description:
+      "An AI-powered movie recommendation platform that personalizes suggestions based on mood, ratings, and user preferences.",
+    tech: ["Python","Flask","HTML5","CSS3","JavaScript","pandas","NumPy","scikit-learn","Google Gemini API","OMDb API"],
+    features: [
+      "Implemented content-based filtering using TF-IDF and cosine similarity to recommend movies",
+      "Integrated Google Gemini API to deliver real-time mood-based movie suggestions",
+      "Fetched IMDb ratings dynamically using OMDb API for better recommendation accuracy",
+      "Designed a responsive and interactive UI for seamless movie browsing",
+    ],
+    gradient: "from-cyan-500 to-blue-500",
+    github: "https://github.com/LakshyaK10/PopcornPulse",
+ 
   },
   {
     title: "Smart Energy Demand Forecasting",
