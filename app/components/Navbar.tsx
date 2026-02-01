@@ -50,7 +50,7 @@ export default function Navbar() {
             <div className="relative">
               <div className="absolute inset-0 bg-linear-to-r from-cyan-500 to-purple-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition"></div>
               <div className="relative px-4 py-2 bg-black rounded-lg border border-cyan-500/50">
-                <span className="text-xl font-bold gradient-text">{"<LK />"}</span>
+                <span className="text-xl font-bold gradient-text">{"LK "}</span>
               </div>
             </div>
           </Link>
@@ -167,7 +167,7 @@ export default function Navbar() {
                 {/* Decorative Element */}
                 <div className="mt-16 pt-6 border-t border-gray-800">
                   <p className="text-center text-gray-500 text-sm">
-                    <span className="gradient-text font-bold text-lg">{"<LK />"}</span>
+                    <span className="gradient-text font-bold text-lg">{"LK "}</span>
                   </p>
                   <p className="text-center text-gray-600 text-xs mt-2">
             

@@ -8,6 +8,38 @@ import Navbar from "../components/Navbar";
 
 const projects = [
   {
+    title: "AWAARA Run Club",
+    subtitle: "Community & Startup Project",
+    description:
+      "A modern, responsive web platform for managing running events, participant registrations, and community engagement with a secure admin dashboard.  ",
+    tech: ["React","Tailwind CSS","Supabase","PostgreSQL","HTML5","CSS3","JavaScript"],
+    features: [
+      "Developed a dynamic run registration system supporting both free and paid events with real-time updates for upcoming and completed runs",
+    "Implemented a secure admin panel using Supabase Authentication and role-based access for creating, updating, and managing run events",
+    "Designed a brutalist-inspired, fully responsive UI using React (CDN) and Tailwind CSS optimized for mobile and desktop devices",
+      
+    ],
+    gradient: "from-rose-500 to-orange-500",
+    github: "https://github.com/LakshyaK10?tab=repositories",
+    live: "https://www.awaara.club/",
+  },
+    {
+    title: "TrainX",
+    subtitle: "Self Project",
+    description:
+      "An interactive AI-driven platform that analyzes workout posture, provides real-time accuracy feedback, and recommends personalized gym and diet plans.",
+    tech: ["Python","Flask","React","OpenCV","TensorFlow","MediaPipe","MongoDB","HTML5","CSS3","JavaScript"],
+    features: [
+      "Implemented AI-based posture and pose estimation with real-time workout form analysis and automated accuracy feedback",
+      "Developed personalized recommendation features, including gym plans, diet suggestions, and performance insights based on user data",
+      "Built a full-stack platform with a React frontend and Flask backend, integrating ML models for pose tracking and smooth user interaction",
+      
+    ],
+    gradient: "from-indigo-500 to-violet-500",
+    github: "https://github.com/LakshyaK10?tab=repositories",
+    live: "https://trainx-2f4g.onrender.com/diet",
+  },
+  {
   title: "GetYou",
   subtitle: "Self Project",
   description:
@@ -35,24 +67,9 @@ const projects = [
   ],
   gradient: "from-blue-500 to-cyan-500",
   github: "https://github.com/LakshyaK10/GetYou",
-  live: "https://your-live-demo-link.com"
+  // live: "https://your-live-demo-link.com"
 },
-    {
-    title: "GYMLife Master",
-    subtitle: "Self Project",
-    description:
-      "An interactive AI-driven platform that analyzes workout posture, provides real-time accuracy feedback, and recommends personalized gym and diet plans.",
-    tech: ["Python","Flask","React","OpenCV","TensorFlow","MediaPipe","MongoDB","HTML5","CSS3","JavaScript"],
-    features: [
-      "Implemented AI-based posture and pose estimation with real-time workout form analysis and automated accuracy feedback",
-      "Developed personalized recommendation features, including gym plans, diet suggestions, and performance insights based on user data",
-      "Built a full-stack platform with a React frontend and Flask backend, integrating ML models for pose tracking and smooth user interaction",
-      
-    ],
-    gradient: "from-indigo-500 to-violet-500",
-    github: "https://github.com/LakshyaK10?tab=repositories",
-    live: "https://gymlifemaster.com",
-  },
+
   {
     title: "PopcornPulse",
     subtitle: "Self Project",
@@ -82,7 +99,7 @@ const projects = [
       ],
     gradient: "from-red-500 to-rose-500",
     github: "https://github.com/LakshyaK10?tab=repositories",
-    live: "https://energyforecasting.com",
+    // live: "https://energyforecasting.com",
   },
   {
     title: "Online Judge System",
@@ -98,7 +115,7 @@ const projects = [
     ],
     gradient: "from-blue-500 to-indigo-500",
     github: "https://github.com/LakshyaK10?tab=repositories",
-    live: "https://onlinejudge.com",
+    // live: "https://onlinejudge.com",
   },
   {
     title: "EDUCAP – Assistive Learning Platform",
@@ -137,7 +154,7 @@ const projects = [
     ],
     gradient: "from-green-500 to-teal-500",
     github: "https://github.com/LakshyaK10/Facial-Emotion-detector",
-    live: "https://facialmood.com",
+    // live: "https://facialmood.com",
   },
   {
     title: "Disease Prediction System",
@@ -152,7 +169,7 @@ const projects = [
     ],
     gradient: "from-amber-500 to-orange-500",
     github: "https://github.com/LakshyaK10?tab=repositories",
-    live: "https://diseaseprediction.com",
+    // live: "https://diseaseprediction.com",
   },
   {
     title: "Stock Analytics Dashboard",
@@ -170,7 +187,7 @@ const projects = [
     ],
     gradient: "from-emerald-500 to-cyan-500",
     github: "https://github.com/LakshyaK10?tab=repositories",
-    live: "https://stockanalytics.com",
+    // live: "https://stockanalytics.com",
   },
   {
     title: "Maze Runner Game",
@@ -185,24 +202,9 @@ const projects = [
     ],
     gradient: "from-pink-500 to-purple-500",
     github: "https://github.com/LakshyaK10/maze-game",
-    live: "https://mazerunner.com",
+    // live: "https://mazerunner.com",
   },
-  // {
-  //   title: "MyBrain - Content Management Hub",
-  //   subtitle: "Full-Stack Content Organization Platform",
-  //   description:
-  //     "A personal knowledge management system where users can save, organize, and access important YouTube videos and Twitter tweets in one centralized platform.",
-  //   tech: ["TypeScript", "React", "Tailwind CSS", "MongoDB", "Express", "JWT", "Zod", "Render"],
-  //   features: [
-  //     "Save and organize YouTube videos and Twitter tweets with tags and categories",
-  //     "Secure authentication with JWT tokens and custom middleware for protected routes",
-  //     "Input validation using Zod schemas to ensure data integrity and type safety",
-  //     "MongoDB database for efficient storage and retrieval of bookmarked content",
-  //     "Clean, intuitive UI built with React and Tailwind CSS for seamless content browsing",
-  //     "Deployed on Render with optimized performance and reliable uptime for production use",
-  //   ],
-  //   gradient: "from-violet-500 to-fuchsia-500",
-  // },
+
 ];
 
 export default function Projects() {
@@ -309,7 +311,7 @@ export default function Projects() {
                         <FaGithub /> Code
                       </button>
                       <button 
-                        onClick={() => alert("Live demo coming soon!")}
+                        onClick={() => window.open(project.live, "_blank")}
                         className="flex-1 px-4 py-2.5 bg-pink-500/10 border border-pink-500 text-pink-400 rounded-lg hover:bg-pink-500 hover:text-black transition-all duration-300 flex items-center justify-center gap-2 text-sm font-semibold">
                         <FaExternalLinkAlt /> Live
                       </button>
