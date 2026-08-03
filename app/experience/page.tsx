@@ -7,6 +7,19 @@ import Navbar from "../components/Navbar";
 
 const experiences = [
   {
+    company: "Propelld",
+    role: "Software Engineer Intern",
+    duration: "May 2026 – Present",
+    location: "Bangalore · On-site",
+    icon: FaBriefcase,
+    color: "blue",
+    achievements: [
+      "Developed and optimized full-stack features using Java, Spring Boot, React, and MySQL to enhance the company's fintech platform",
+      "Built RESTful APIs and integrated backend services, improving application performance and ensuring seamless data flow",
+      "Collaborated with cross-functional teams to deliver scalable, production-ready solutions while following industry best practices and Agile development workflows",
+    ],
+  },
+  {
     company: "AWAARA RUN CLUB",
     role: "Sponsership Head",
     duration: "Sept 2025 – Present",

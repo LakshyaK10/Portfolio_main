@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaPaperPlane, FaEnvelope, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode, SiCodio } from "react-icons/si";
 import { useState } from "react";
 import ParticlesBackground from "../components/ParticlesBackground";
 import Navbar from "../components/Navbar";
@@ -122,6 +123,23 @@ export default function Contact() {
                 >
                   <FaLinkedin className="text-3xl text-cyan-400" />
                 </a>
+
+                <a
+                href="https://leetcode.com/u/YOUR_USERNAME/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 flex items-center justify-center bg-white/5 border border-cyan-500/30 rounded-lg hover:bg-cyan-500/10 hover:border-cyan-500 transition-all group"
+              >
+                <SiLeetcode className="text-xl text-cyan-400 group-hover:scale-110 transition-transform" />
+              </a>
+              <a
+                href="https://codolio.com/profile/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 flex items-center justify-center bg-white/5 border border-cyan-500/30 rounded-lg hover:bg-cyan-500/10 hover:border-cyan-500 transition-all group"
+              >
+                <SiCodio className="text-xl text-cyan-400 group-hover:scale-110 transition-transform" />
+              </a>
               </div>
             </div>
 

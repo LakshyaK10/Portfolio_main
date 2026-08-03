@@ -45,7 +45,7 @@ export default function About() {
               </p>
               <div className="flex justify-between text-gray-400 mb-4">
                 <span>Expected Graduation: 2027</span>
-                <span className="text-green-400 font-bold">CGPA: 9.31/10</span>
+                <span className="text-green-400 font-bold">CGPA: 9.34/10</span>
               </div>
               <div className="space-y-2">
                 <p className="text-sm text-gray-300 font-semibold">Relevant Coursework:</p>
@@ -56,7 +56,7 @@ export default function About() {
                     "Computer Networks",
                     "DBMS",
                     "Operating Systems",
-                    "Software Design",
+                    "System Design",
                   ].map((course) => (
                     <span
                       key={course}
@@ -109,6 +109,9 @@ export default function About() {
                     "N8N",
                     "Git",
                     "GitHub",
+                    "AWS",
+                    "Docker",
+                    "MongoDB Atlas"
                   ].map((tech) => (
                     <span
                       key={tech}
