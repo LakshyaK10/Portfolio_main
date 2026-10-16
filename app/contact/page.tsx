@@ -125,7 +125,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                href="https://leetcode.com/u/laksyhya_k/"
+                href="https://leetcode.com/u/lakshya_luv/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 flex items-center justify-center bg-white/5 border border-cyan-500/30 rounded-lg hover:bg-cyan-500/10 hover:border-cyan-500 transition-all group"
